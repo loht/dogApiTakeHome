@@ -1,9 +1,9 @@
 ## Notes
 - Picked React Router due to simplicity and ease of use
 - Redux store consist of the following slices:
--- uiAdmin - General Slice to control what breed is currently selected
--- breeds - A slice that stores a list of all breeds returned from the dog api
--- breedDetails - A slice that contains a map of an array of images locations that is keyed by a combination of breed and sub-breed.
+  - uiAdmin - General Slice to control what breed is currently selected
+  - breeds - A slice that stores a list of all breeds returned from the dog api
+  - breedDetails - A slice that contains a map of an array of images locations that is keyed by a combination of breed and sub-breed.
 - Misc. shared CSS classes, functions and interfaces are stored in src/features/helpers/
 - Test example can be found at src/features/breedDetails/breedDetailsSlice.spec.ts
 
