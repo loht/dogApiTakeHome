@@ -4,8 +4,8 @@
   - uiAdmin - General Slice to control what breed is currently selected
   - breeds - A slice that stores a list of all breeds returned from the dog api
   - breedDetails - A slice that contains a map of an array of images locations that is keyed by a combination of breed and sub-breed.
-- Misc. shared CSS classes, functions and interfaces are stored in src/features/helpers/
-- Test example can be found at src/features/breedDetails/breedDetailsSlice.spec.ts
+- Misc. shared CSS classes, functions and interfaces are stored in `src/features/helpers/`
+- Test example can be found at `src/features/breedDetails/breedDetailsSlice.spec.ts`
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
